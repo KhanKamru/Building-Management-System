@@ -1,0 +1,32 @@
+.warning,.success,.danger{
+    border:2px solid black;
+    border-radius: 5px;
+    margin: 10px auto;
+    position: relative;
+    height: 35px;
+    padding: 8px 20px;
+    font-size: 18px;
+    
+}
+.warning{
+        background-color:lightyellow;
+}
+.success{
+        background-color:lightgreen;
+}
+.danger{
+        background-color:lightcoral;
+}
+.cancel{
+    position: absolute;
+    top:4px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size:30px;
+}
+@media only screen and (min-width: 700px) {
+    .container,.container-fluid,.container-sm,.warning,.danger,.success{
+        width: 60%;
+    }
+}
